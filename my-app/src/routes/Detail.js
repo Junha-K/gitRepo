@@ -27,7 +27,7 @@ function Detail() {
                 {detail.genres.map(g=><li key={g}>{g}</li>)}
             </ul>
             <p>{detail.description_full.length < 235 ? detail.description_full : detail.description_full.slice(0,235)}</p>
-            <Link to ={'/'}>
+            <Link to ={'/frontend-practice'}>
                 <button>Back</button>
             </Link>
         </div>

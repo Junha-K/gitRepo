@@ -5,7 +5,7 @@ import Detail from "./routes/Detail"
 function App() {
   return (
     <Routes>
-      <Route path="/" element ={<Home/>}/>
+      <Route path="/frontend-practice/" element ={<Home/>}/>
       <Route path="/movie/:id" element ={<Detail/>}/>
     </Routes>
   );
