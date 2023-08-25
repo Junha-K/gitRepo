@@ -63,7 +63,7 @@ function App() {
     <div>
       <h1>ToDo List</h1>
       <Modal show={modalOpen} onClose={toggleModal}/>
-      <ToDoIn show={!openDone} toDos={toDos} handleSubmit={handleSubmit} setModalOpen={setModalOpen}/>
+      <ToDoIn show={!openDone} handleSubmit={handleSubmit}/>
       <OpenDoneToDo show={openDone} doneToDos={doneToDos} handleDelete={handleDelete} toggleDoneList={toggleDoneList}/>
       <ToDoLi show={!openDone} toDos={toDos} handleDone={handleDone}/>
     </div>
