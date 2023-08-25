@@ -17,7 +17,7 @@ const OpenDoneToDo = ({show, doneToDos, handleDelete, toggleDoneList}) => {
             <ul>
             {(doneToDos === null) ? null
             :doneToDos.map((doneToDo, index) => {
-                return <li key={index}>{doneToDo}    <button onClick={(e) => handleDelete(e, doneToDos, index)}>Delete!</button></li>
+                return <li key={index}>{doneToDo.value}    <button onClick={(e) => handleDelete(e, doneToDos, index)}>Delete!</button></li>
             })}
             </ul>
         </div>
