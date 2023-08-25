@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/todo-practice/static/js/main.291d533e.js",
-    "index.html": "/todo-practice/index.html",
-    "main.291d533e.js.map": "/todo-practice/static/js/main.291d533e.js.map"
+    "main.js": "/gitRepo/static/js/main.291d533e.js",
+    "index.html": "/gitRepo/index.html",
+    "main.291d533e.js.map": "/gitRepo/static/js/main.291d533e.js.map"
   },
   "entrypoints": [
     "static/js/main.291d533e.js"
