@@ -8,7 +8,7 @@ const ToDoLi = ({show, toDos, handleDone}) => {
     <ul>
     {(toDos === null) ? null
     :toDos.map((toDo, index) => {
-      return <li key={index}>{toDo.value}    <button onClick={(e) => handleDone(e, toDo.id)}>Done!</button></li>
+      return <li key={index}>{toDo.category !== "" ? toDo.category: null} {toDo.value}    <button onClick={(e) => handleDone(e, toDo.id)}>Done!</button></li>
     })}
     </ul>
   )
